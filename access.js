@@ -1,4 +1,4 @@
-var mpcode;
+var mpcode = "test1";
 
 var accessoverride;
 
@@ -8,7 +8,7 @@ if (sessionStorage.getItem("accCode") == mpcode) {
 
 function checkcode(code) {
   if (code == mpcode) {
-    approve()
+    access()
   } else {
     alert("Incorrect code")
   }
