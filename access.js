@@ -1,6 +1,6 @@
 var mpcode = "test1";
 
-var accessoverride = true;
+var accessoverride;
 
 if (sessionStorage.getItem("accCode") == mpcode) {
   accessoverride = false
